@@ -62,36 +62,6 @@ Inliner.Position = UDim2.fromScale(1, 0)
 Inliner.AnchorPoint = Vector2.new(1, 0)
 Inliner.Parent = TabBG
 
-local HideTabButton = Instance.new("ImageLabel")
-HideTabButton.Parent = TabBG
-HideTabButton.BackgroundTransparency = 1.000
-HideTabButton.BorderSizePixel = 0
-HideTabButton.Position = UDim2.new(0.86445713, 0, 0.0267857164, 0)
-HideTabButton.Size = UDim2.new(0, 50, 0, 50)
-HideTabButton.Image = "http://www.roblox.com/asset/?id=6031625146"
-HideTabButton.ImageColor3 = Color3.fromRGB(20,20,20)
-
-local InsideCircle = Instance.new("ImageLabel")
-InsideCircle.Name = "InsideCircle"
-InsideCircle.Parent = HideTabButton
-InsideCircle.AnchorPoint = Vector2.new(0.5, 0.5)
-InsideCircle.BackgroundTransparency = 1.000
-InsideCircle.BorderSizePixel = 0
-InsideCircle.Position = UDim2.new(0.5, 0, 0.5, 0)
-InsideCircle.Size = UDim2.new(0, 33, 0, 33)
-InsideCircle.Image = "http://www.roblox.com/asset/?id=6031625146"
-InsideCircle.ImageColor3 = Color3.fromRGB(30,30,30)
-
-local InsideArrow = Instance.new("ImageLabel")
-InsideArrow.Name = "InsideArrow"
-InsideArrow.Parent = HideTabButton
-InsideArrow.AnchorPoint = Vector2.new(0.5, 0.5)
-InsideArrow.BackgroundTransparency = 1.000
-InsideArrow.BorderSizePixel = 0
-InsideArrow.Position = UDim2.new(0.5, 0, 0.5, 0)
-InsideArrow.Size = UDim2.new(0, 30, 0, 30)
-InsideArrow.Image = "http://www.roblox.com/asset/?id=6034818375"
-
 local UITitle = Instance.new("TextLabel")
 UITitle.Name = "UITitle"
 UITitle.Parent = TabBG

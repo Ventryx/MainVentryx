@@ -46,7 +46,7 @@ bgCorner.Parent = BG
 --// Tab holder
 
 local TabBG = Instance.new("Frame")
-TabBG.BackgroundColor3 = Color3.fromRGB(25,23,26)
+TabBG.BackgroundColor3 = Color3.fromRGB(24,24,24)
 TabBG.Size = UDim2.fromOffset(183, 448)
 TabBG.Parent = BG
 
@@ -113,9 +113,9 @@ function lib:NewTab(name, desc)
 	TabButton.Name = name
 	TabButton.Parent = TabButtons
 	TabButton.AnchorPoint = Vector2.new(0.5, 0)
-	TabButton.BackgroundColor3 = #lib.Tabs == 0 and Color3.fromRGB(45,40,50) or Color3.fromRGB(35,35,35) -- SELECTED: Color3.fromRGB(231, 231, 255)
+	TabButton.BackgroundColor3 = #lib.Tabs == 0 and Color3.fromRGB(45,40,50) or Color3.fromRGB(35,35,35)
 	TabButton.BorderSizePixel = 0
-	TabButton.BackgroundTransparency = #lib.Tabs == 0 and 0 or 1 -- 0: SELECTED / HOVERED
+	TabButton.BackgroundTransparency = #lib.Tabs == 0 and 0 or 1
 	TabButton.Position = UDim2.new(0.5, 0, 0, 0)
 	TabButton.Size = UDim2.new(0, 155, 0, 35)
 	TabButton.AutoButtonColor = false

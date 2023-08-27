@@ -70,7 +70,7 @@ Logo.BackgroundTransparency = 1
 Logo.BorderColor3 = Color3.new(0, 0, 0)
 Logo.BorderSizePixel = 0
 Logo.Position = UDim2.new(0.125207946, 0, 0.046875, 0)
-Logo.Size = UDim2.new(0, 135, 0, 32)
+Logo.Size = UDim2.new(0, 135, 0, 50)
 Logo.Image = "http://www.roblox.com/asset/?id=14295921832"
 
 local TabButtons = Instance.new("ScrollingFrame")
